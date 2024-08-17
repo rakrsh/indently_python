@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "indently-python"
+version = "0.0.1"
+description = "A repository to implement indently tutorials"
+authors = ["Ravi Sharma <ravikr731@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
