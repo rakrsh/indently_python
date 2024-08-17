@@ -6,9 +6,27 @@ authors = ["Ravi Sharma <ravikr731@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = ">=3.10"
 
+
+[tool.poetry.group.style.dependencies]
+pre-commit = "^3.8.0"
+black = "^24.8.0"
+flake8 = "^7.1.1"
+mypy = "^1.11.1"
+autopep8 = "^2.3.1"
+pyupgrade = "^3.17.0"
+add-trailing-comma = "^3.1.0"
+pyright = "^1.1.376"
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.black]
+py36 = true
+include = '\\.pyi?$'
+exclude = '''
+    /(\.git|\.hg|\.mypy_cache|\.tox|\.venv|_build|buck-out|build|dist|blib2to3|tests/data)/
+'''
