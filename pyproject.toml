@@ -32,3 +32,6 @@ include = '\\.pyi?$'
 exclude = '''
     /(\.git|\.hg|\.mypy_cache|\.tox|\.venv|_build|buck-out|build|dist|blib2to3|tests/data)/
 '''
+
+[tool.mypy]
+show_error_codes = true
