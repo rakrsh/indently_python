@@ -16,3 +16,18 @@ def assert_never(arg: Never) -> NoReturn:
 class State(Enum):
     OFF: int = 0
     ON: int = 1
+
+
+def main() -> None:
+    state: State = State.ON
+
+    if state == State.ON:
+        print('Turned ON!')
+    elif state == State.OFF:
+        print('Turned OFF!')
+    else:
+        assert_never(state)
+
+
+if __name__ == '__main__':
+    main()
