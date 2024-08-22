@@ -39,5 +39,4 @@ repos:
     rev: v1.11.1
     hooks:
     -   id: mypy
-        entry: "./run-mypy.sh"
         args: ["--ignore-missing-imports", "--scripts-are-modules"]
