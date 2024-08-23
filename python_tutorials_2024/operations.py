@@ -16,3 +16,5 @@ set_b: set[int] = {4, 5, 6, 7, 8}
 print(f"{set_a | set_b}")
 print(f"{set_a - set_b}")
 print(f"{set_b - set_a}")
+print(f"{set_b & set_a}")
+print(f"{set_b ^ set_a}")
