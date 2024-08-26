@@ -5,6 +5,10 @@ description = "A repository to implement indently tutorials"
 authors = ["Ravi Sharma <ravikr731@gmail.com>"]
 readme = "README.md"
 
+packages = [
+    {include = ".", from = "src"}
+]
+
 [tool.poetry.dependencies]
 python = ">=3.10"
 discord = "^2.3.2"
