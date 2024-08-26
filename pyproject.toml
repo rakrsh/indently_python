@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "indently-python"
-version = "0.0.1"
+version = "0.0.1.dev0"
 description = "A repository to implement indently tutorials"
 authors = ["Ravi Sharma <ravikr731@gmail.com>"]
 readme = "README.md"
